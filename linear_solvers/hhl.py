@@ -31,7 +31,7 @@ from qiskit.opflow import (
     ComposedOp,
 )
 from qiskit.providers import Backend
-from qiskit.utils import QuantumInstance
+from qiskit.utils.quantum_instance import QuantumInstance
 
 from .linear_solver import LinearSolver, LinearSolverResult
 from .matrices.numpy_matrix import NumPyMatrix
